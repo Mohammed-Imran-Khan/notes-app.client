@@ -7,7 +7,7 @@ export default function Signup() {
    const handlesignup = async(e) =>{
 
     e.preventDefault();
-    const response =  await fetch("https://noteapp-server-3umv.onrender.com//api/auth/createUser", {
+    const response =  await fetch("https://noteapp-server-3umv.onrender.com/api/auth/createUser", {
             method: "POST",
             headers:{
                 "Content-Type":"application/json"
